@@ -1,8 +1,38 @@
 @include('layouts.app')
 
-<div class="max-w-sm mx-auto flex p-5 m-10 bg-white rounded-3g shadow-xl">
-   <div class="ml-6 pt-1">
-       <h4 class="text-xl leading-tight">Tailwind</h4>
-       <p class="text-base text-green-600 leading-normal">check the display!</p>
-   </div>
+<header>
+    <ul>
+        <li>
+            ASABEN 特徴 カリキュラム コース ご挨拶 入塾の流れ その他
+        </li>
+    </ul>
+</header>
+
+<div>
+    <h2>ASABEN</h2>
+    <p>朝の学習習慣で人生を豊かに</p>
+    <p>Change your morning,Change your life.</p>
 </div>
+
+<div>
+    <h2>ASABENとは？</h2>
+    <p>「塾・予備校＝放課後に通うもの」という概念を壊し、</p>
+    <p>毎朝の学習習慣を身に付けることによって、1日の時間を有効活用できる</p>
+    <p>「一生モノ」の学習習慣を身につけます</p>
+</div>
+
+<section id='news'>
+    <p>ニュース</p>
+    <p>この度、朝のオンライン塾「ASABEN」について、代表の福島が取材を受け、教育メディア「テラコヤプラス」に記事が掲載されました。ASABENが実現したいことや強み・特徴について答えておりますので、ぜひご一読ください！</p>
+    <button>テラコヤプラスTOPページ</button>
+</section>
+
+<section id='movie'>
+
+</section>
+
+<section id='detail'></section>
+
+<footer>
+    <p>©ASABEN2021</p>
+</footer>
