@@ -23,12 +23,10 @@
 
 <body>
     {{-- ヘッダー部分 --}}
-    
+
     {{-- 内容・コンテキスト --}}
     <div id="app">
-        <main class="pt-12 pb-16">
-            @yield('content')
-        </main>
+        @yield('content')
     </div>
 
     <!-- 画面下部に配置 -->
