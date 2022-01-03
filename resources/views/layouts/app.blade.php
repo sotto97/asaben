@@ -11,12 +11,10 @@
     <title>{{ config('app.name', 'ASABEN') }}</title>
     <!-- スクリプト -->
     <script src="{{ mix('js/app.js') }}"></script>
-
     <!-- フォント関連 -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-
     <!-- CSSファイル -->
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
 </head>

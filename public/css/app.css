@@ -20671,6 +20671,186 @@ video {
           animation: bounce 1s infinite;
 }
 
+.bg-orange-100 {
+  background-color: #fffaf0;
+}
+
+.bg-orange-200 {
+  background-color: #feebc8;
+}
+
+.bg-orange-300 {
+  background-color: #fbd38d;
+}
+
+.bg-orange-400 {
+  background-color: #f6ad55;
+}
+
+.bg-orange-500 {
+  background-color: #ed8936;
+}
+
+.bg-orange-600 {
+  background-color: #dd6b20;
+}
+
+.bg-orange-700 {
+  background-color: #c05621;
+}
+
+.bg-orange-800 {
+  background-color: #9c4221;
+}
+
+.bg-orange-900 {
+  background-color: #7b341e;
+}
+
+.text-orange-100 {
+  color: #fffaf0;
+}
+
+.text-orange-200 {
+  color: #feebc8;
+}
+
+.text-orange-300 {
+  color: #fbd38d;
+}
+
+.text-orange-400 {
+  color: #f6ad55;
+}
+
+.text-orange-500 {
+  color: #ed8936;
+}
+
+.text-orange-600 {
+  color: #dd6b20;
+}
+
+.text-orange-700 {
+  color: #c05621;
+}
+
+.text-orange-800 {
+  color: #9c4221;
+}
+
+.text-orange-900 {
+  color: #7b341e;
+}
+
+.bg-orange-100 {
+  background-color: #fffaf0;
+}
+
+.bg-orange-200 {
+  background-color: #feebc8;
+}
+
+.bg-orange-300 {
+  background-color: #fbd38d;
+}
+
+.bg-orange-400 {
+  background-color: #f6ad55;
+}
+
+.bg-orange-500 {
+  background-color: #ed8936;
+}
+
+.bg-orange-600 {
+  background-color: #dd6b20;
+}
+
+.bg-orange-700 {
+  background-color: #c05621;
+}
+
+.bg-orange-800 {
+  background-color: #9c4221;
+}
+
+.bg-orange-900 {
+  background-color: #7b341e;
+}
+
+.hover\:bg-orange-100:hover {
+  background-color: #fffaf0;
+}
+
+.hover\:bg-orange-200:hover {
+  background-color: #feebc8;
+}
+
+.hover\:bg-orange-300:hover {
+  background-color: #fbd38d;
+}
+
+.hover\:bg-orange-400:hover {
+  background-color: #f6ad55;
+}
+
+.hover\:bg-orange-500:hover {
+  background-color: #ed8936;
+}
+
+.hover\:bg-orange-600:hover {
+  background-color: #dd6b20;
+}
+
+.hover\:bg-orange-700:hover {
+  background-color: #c05621;
+}
+
+.hover\:bg-orange-800:hover {
+  background-color: #9c4221;
+}
+
+.hover\:bg-orange-900:hover {
+  background-color: #7b341e;
+}
+
+.focus\:bg-orange-100:focus {
+  background-color: #fffaf0;
+}
+
+.focus\:bg-orange-200:focus {
+  background-color: #feebc8;
+}
+
+.focus\:bg-orange-300:focus {
+  background-color: #fbd38d;
+}
+
+.focus\:bg-orange-400:focus {
+  background-color: #f6ad55;
+}
+
+.focus\:bg-orange-500:focus {
+  background-color: #ed8936;
+}
+
+.focus\:bg-orange-600:focus {
+  background-color: #dd6b20;
+}
+
+.focus\:bg-orange-700:focus {
+  background-color: #c05621;
+}
+
+.focus\:bg-orange-800:focus {
+  background-color: #9c4221;
+}
+
+.focus\:bg-orange-900:focus {
+  background-color: #7b341e;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
