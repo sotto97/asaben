@@ -5,7 +5,12 @@
         </div>
         <div class="w-3/5 pr-16 py-2">
             <ul class="flex text-center items-center text-sm">
-                <li class="flex-1 hover:text-white transition duration-300 cursor-pointer">特徴</li>
+                {{-- <a href="{{ route('top.peculiarity') }}">
+                    <li class="flex-1 hover:text-white transition duration-300 cursor-pointer">特徴</li>
+                </a> --}}
+                <li class="flex-1 hover:text-white transition duration-300 cursor-pointer">
+                    <a href="{{ route('top.peculiarity') }}">特徴</a>
+                </li>
                 <li class="flex-1 hover:text-white transition duration-300 cursor-pointer">カリキュラム</li>
                 <li class="flex-1 hover:text-white transition duration-300 cursor-pointer">コース</li>
                 <li class="flex-1 hover:text-white transition duration-300 cursor-pointer">ご挨拶</li>

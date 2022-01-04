@@ -21,4 +21,5 @@ Route::group(['prefix' => '/'], function() {
     Route::get('top', 'TopController@index')->name('top.top');
     Route::get('flow', 'TopController@index')->name('top.flow');
     Route::get('blog', 'TopController@index')->name('top.blog');
+    Route::get('peculiarity', 'TopController@peculiarity')->name('top.peculiarity');
 });
