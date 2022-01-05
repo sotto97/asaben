@@ -1,5 +1,4 @@
 @include('layouts.app')
-
 @include('layouts.header')
 
 <div class="w-full h-screen flex items-center bg-gray-100">

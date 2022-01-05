@@ -12,7 +12,9 @@
                     <a href="{{ route('top.peculiarity') }}">特徴</a>
                 </li>
                 <li class="flex-1 hover:text-white transition duration-300 cursor-pointer">カリキュラム</li>
-                <li class="flex-1 hover:text-white transition duration-300 cursor-pointer">コース</li>
+                <li class="flex-1 hover:text-white transition duration-300 cursor-pointer">
+                    <a href="{{ route('top.course') }}">コース</a>
+                </li>
                 <li class="flex-1 hover:text-white transition duration-300 cursor-pointer">ご挨拶</li>
                 <li class="flex-1 hover:text-white transition duration-300 cursor-pointer">入塾の流れ</li>
                 <li class="flex-1 hover:text-white transition duration-300 cursor-pointer">その他</li>

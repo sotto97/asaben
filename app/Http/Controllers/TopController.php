@@ -92,4 +92,15 @@ class TopController extends Controller
     {
         //
         return view('top.peculiarity');
-    }}
+    }
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function course()
+    {
+        //
+        return view('top.course');
+    }
+}
