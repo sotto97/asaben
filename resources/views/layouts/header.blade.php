@@ -19,9 +19,6 @@
                 <li class="flex-1">
                     <button class="px-2 py-2 bg-orange-400 hover:bg-orange-600 transition duration-300 text-white cursor-pointer rounded-full">お問い合わせ</button>
                 </li>
-                <!-- <li class="flex-1 p-2 hover:bg-orange-400 hover:text-gray-600 cursor-pointer">taisei.fukushima@asaben2021.com
-            </li>
-            <li class="flex-1 p-2 hover:bg-orange-400 hover:text-gray-600 cursor-pointer">080-2389-3091</li> -->
             </ul>
         </div>
     </div>

@@ -1,5 +1,5 @@
-@include('layouts.app')
-@include('layouts.header')
+@extends('layouts.app')
+@section('content')
 
 <section class="pt-12">
     <p>ASABENの特徴</p>
@@ -26,3 +26,5 @@
         </div>
     </div>
 </section>
+
+@endsection

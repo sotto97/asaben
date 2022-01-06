@@ -1,4 +1,5 @@
-@include('layouts.app')
+@extends('layouts.app')
+@section('content')
 
 <section id="detail" class="w-full h-auto items-center py-24 bg-gray-100 text-orange-400 text-center">
     <p class="text-3xl mb-8">カリキュラムのご案内</p>
@@ -18,3 +19,5 @@
         <img src="{{ asset('img/curriculum5.png') }}" width="55%" class="mx-auto">
     </div>
 </section>
+
+@endsection

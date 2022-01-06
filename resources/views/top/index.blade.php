@@ -1,5 +1,5 @@
-@include('layouts.app')
-@include('layouts.header')
+@extends('layouts.app')
+@section('content')
 
 <div class="w-full h-screen flex items-center bg-gray-100">
     <div class="text-right w-1/2 pr-12 pb-12">
@@ -150,3 +150,5 @@
         ASABENが実現したいことや強み・特徴について答えておりますので、ぜひご一読ください！</p>
     <button class="bg-orange-400 hover:bg-orange-500 transition duration-300 text-white py-2 px-6 rounded-full">テラコヤプラスTOPページ</button>
 </section>
+
+@endsection
