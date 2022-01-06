@@ -1,17 +1,15 @@
 <header class="relative w-full">
     <div class="fixed flex items-center inset-x-0 top-0 bg-orange-400">
         <div class="w-2/5 h-auto pl-16 py-2">
-            <p class="italic font-semibold text-xl">ASABEN</p>
+            <a href="{{ route('top.index') }}">
+                <p class="italic font-semibold text-xl">ASABEN</p>
+            </a>
         </div>
         <div class="w-3/5 pr-16 py-2">
             <ul class="flex text-center items-center text-sm">
-                {{-- <a href="{{ route('top.peculiarity') }}">
-                    <li class="flex-1 hover:text-white transition duration-300 cursor-pointer">特徴</li>
-                </a> --}}
                 <li class="flex-1 hover:text-white transition duration-300 cursor-pointer">
-                    <a href="{{ route('top.peculiarity') }}">特徴</a>
+                    <a href="{{ route('top.curriculum') }}">カリキュラム</a>
                 </li>
-                <li class="flex-1 hover:text-white transition duration-300 cursor-pointer">カリキュラム</li>
                 <li class="flex-1 hover:text-white transition duration-300 cursor-pointer">
                     <a href="{{ route('top.course') }}">コース</a>
                 </li>

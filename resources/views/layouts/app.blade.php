@@ -21,16 +21,15 @@
 
 <body>
     {{-- ヘッダー部分 --}}
+    @include('layouts.header')
 
     {{-- 内容・コンテキスト --}}
     <div id="app">
         @yield('content')
     </div>
 
-    <!-- 画面下部に配置 -->
-    {{--
+    {{-- フッター部分 --}}
     @include('layouts.footer')
-    --}}
 
 </body>
 

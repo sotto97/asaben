@@ -19,7 +19,7 @@ Route::group(['prefix' => '/'], function() {
     Route::get('class', 'TopController@index')->name('top.class');
     Route::get('course', 'TopController@course')->name('top.course');
     Route::get('top', 'TopController@index')->name('top.top');
-    Route::get('flow', 'TopController@index')->name('top.flow');
+    Route::get('curriculum', 'TopController@curriculum')->name('top.curriculum');
     Route::get('blog', 'TopController@index')->name('top.blog');
     Route::get('peculiarity', 'TopController@peculiarity')->name('top.peculiarity');
 });

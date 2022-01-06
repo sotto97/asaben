@@ -93,6 +93,7 @@ class TopController extends Controller
         //
         return view('top.peculiarity');
     }
+
     /**
      * Display a listing of the resource.
      *
@@ -102,5 +103,16 @@ class TopController extends Controller
     {
         //
         return view('top.course');
+    }
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function curriculum()
+    {
+        //
+        return view('top.curriculum');
     }
 }

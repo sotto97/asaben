@@ -23,16 +23,25 @@
     <p>「一生モノ」の学習習慣を身につけます</p>
 </div>
 
-<section id="news" class="h-auto py-12 bg-gray-100 text-center">
-    <p class="text-3xl text-orange-400">ニュース</p>
-    <div class="w-2/5 mx-auto my-4">
-        <a href="">
-            <img src="{{ asset('img/abema.png') }}">
-        </a>
+<section id="detail" class="w-full h-auto items-center py-12 bg-gray-100 text-orange-400 text-center">
+    <p class="text-3xl">ASABENの特徴</p>
+    <div class="w-4/5 mx-auto flex items-stretch py-4">
+        <div class="flex-1 text-black">
+            <img src="{{ asset('svg/progress_overview.svg') }}" width="55%" class="mx-auto h-56">
+            <p class="underline py-2">"学習状況の視える化"</p>
+            <p class="w-3/4 mx-auto">進捗管理アプリを用いて、<br>学習計画と実際の学習状況を可視化します。<br><br>講師も学習状況をリアルタイムに把握することで、各生徒に合わせた日々のサポートを行います。週次で面談を行い、その都度、課題や改善点を確認することで効率的な指導を実現します。<br><br>また、生徒様自身も目標達成に向け、前進していることを実感することができます。</p>
+        </div>
+        {{-- <div class="flex-1 text-black">
+            <img src="{{ asset('svg/team.svg') }}" width="55%" class="mx-auto h-56">
+            <p class="underline py-2">"パーソナライズされたカリキュラム"</p>
+            <p class="w-3/4 mx-auto">生徒一人ひとり、得意なこと、苦手なこと、将来の夢や目標は異なります。ASABENでは、それぞれに最適な学習計画を講師が生徒と一緒に作成し、学習計画の進捗を管理することで、一人ひとりに合った学習を促します。単に「教える」のではなく、「自ら学習する力を身に付けるサポート」が、飛躍的な成長への秘訣です。</p>
+        </div> --}}
+        <div class="flex-1 text-black">
+            <img src="{{ asset('svg/videocall.svg') }}" width="55%" class="mx-auto h-56">
+            <p class="underline py-2">"コミュニケーションツールによる日々のサポート"</p>
+            <p class="w-3/4 mx-auto">日々の密なコミュニケーションにより、<br>継続できる仕組みを提供します。<br><br>生徒一人ひとりの個性と向き合い、目標達成に向け、<br>モチベートすることでやる気を引き出し、<br>確実な成果へと導きます。</p>
+        </div>
     </div>
-    <p class="my-4">この度、朝のオンライン塾「ASABEN」について、代表の福島が取材を受け、教育メディア「テラコヤプラス」に記事が掲載されました。<br>
-        ASABENが実現したいことや強み・特徴について答えておりますので、ぜひご一読ください！</p>
-    <button class="bg-orange-400 hover:bg-orange-500 transition duration-300 text-white py-2 px-6 rounded-full">テラコヤプラスTOPページ</button>
 </section>
 
 <section id="movie" class="h-auto py-12 bg-orange-400 text-white text-center">
@@ -130,6 +139,14 @@
     </form>
 </section>
 
-<footer class="bg-orange-400 text-center text-white py-2">
-    <p>©ASABEN2021</p>
-</footer>
+<section id="news" class="h-auto py-12 bg-gray-100 text-center">
+    <p class="text-3xl text-orange-400">ニュース</p>
+    <div class="w-2/5 mx-auto my-4">
+        <a href="">
+            <img src="{{ asset('img/abema.png') }}">
+        </a>
+    </div>
+    <p class="my-4">この度、朝のオンライン塾「ASABEN」について、代表の福島が取材を受け、教育メディア「テラコヤプラス」に記事が掲載されました。<br>
+        ASABENが実現したいことや強み・特徴について答えておりますので、ぜひご一読ください！</p>
+    <button class="bg-orange-400 hover:bg-orange-500 transition duration-300 text-white py-2 px-6 rounded-full">テラコヤプラスTOPページ</button>
+</section>
