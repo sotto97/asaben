@@ -126,4 +126,15 @@ class TopController extends Controller
         //
         return view('top.greetings');
     }
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function entrance()
+    {
+        //
+        return view('top.entrance');
+    }
 }

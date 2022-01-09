@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::group(['prefix' => '/'], function() {
     Route::get('', 'TopController@index')->name('top.index');
-    Route::get('features', 'TopController@index')->name('top.features');
+    Route::get('entrance', 'TopController@entrance')->name('top.entrance');
     Route::get('greetings', 'TopController@greetings')->name('top.greetings');
     Route::get('course', 'TopController@course')->name('top.course');
     Route::get('top', 'TopController@index')->name('top.top');
