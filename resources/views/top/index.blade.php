@@ -102,12 +102,24 @@
     </div>
 </section>
 
-<section id="contact" class="h-auto w-full py-20 bg-orange-400 text-white text-center">
+<section id="news" class="h-auto py-12 bg-orange-400 text-center">
+    <p class="text-3xl text-white">ニュース</p>
+    <div class="w-2/5 mx-auto my-4">
+        <a href="">
+            <img src="{{ asset('img/abema.png') }}">
+        </a>
+    </div>
+    <p class="my-4 text-white">この度、朝のオンライン塾「ASABEN」について、代表の福島が取材を受け、教育メディア「テラコヤプラス」に記事が掲載されました。<br>
+        ASABENが実現したいことや強み・特徴について答えておりますので、ぜひご一読ください！</p>
+    <button class="bg-white hover:bg-gray-200 transition duration-300 text-orange-400 py-2 px-6 rounded-full">テラコヤプラスTOPページ</button>
+</section>
+
+<section id="contact" class="h-auto w-full pt-12 bg-gray-100 text-center">
     <p class="text-3xl">お問い合わせフォーム</p>
-    <form class="w-1/2 mx-auto py-20">
+    <form class="w-1/2 mx-auto py-12">
         <div class="md:flex md:items-center mb-6">
             <div class="md:w-1/3">
-                <label class="block text-white font-bold md:text-right mb-1 md:mb-0 pr-4">
+                <label class="block font-bold md:text-right mb-1 md:mb-0 pr-4">
                     お名前
                 </label>
             </div>
@@ -137,18 +149,6 @@
         </div>
         <button type="submit" class=" w-3/4 bg-gray-800 hover:bg-gray-700 transition duration-300 text-white py-2 px-6 rounded-full">内容を確認して送信する</button>
     </form>
-</section>
-
-<section id="news" class="h-auto py-12 bg-gray-100 text-center">
-    <p class="text-3xl text-orange-400">ニュース</p>
-    <div class="w-2/5 mx-auto my-4">
-        <a href="">
-            <img src="{{ asset('img/abema.png') }}">
-        </a>
-    </div>
-    <p class="my-4">この度、朝のオンライン塾「ASABEN」について、代表の福島が取材を受け、教育メディア「テラコヤプラス」に記事が掲載されました。<br>
-        ASABENが実現したいことや強み・特徴について答えておりますので、ぜひご一読ください！</p>
-    <button class="bg-orange-400 hover:bg-orange-500 transition duration-300 text-white py-2 px-6 rounded-full">テラコヤプラスTOPページ</button>
 </section>
 
 @endsection

@@ -19,9 +19,9 @@
                 <li class="flex-1 hover:text-white transition duration-300 cursor-pointer">
                     <a href="{{ route('top.entrance') }}">入塾の流れ</a>
                 </li>
-                <li class="flex-1 hover:text-white transition duration-300 cursor-pointer">その他</li>
+                {{-- <li class="flex-1 hover:text-white transition duration-300 cursor-pointer">その他</li> --}}
                 <li class="flex-1">
-                    <button class="px-2 py-2 bg-orange-400 hover:bg-orange-600 transition duration-300 text-white cursor-pointer rounded-full">お問い合わせ</button>
+                    <button class="px-4 py-2 bg-orange-400 hover:bg-orange-600 transition duration-300 text-white cursor-pointer rounded-full">お問い合わせ</button>
                 </li>
             </ul>
         </div>
