@@ -20851,6 +20851,22 @@ video {
   background-color: #7b341e;
 }
 
+.h-72 {
+  height: 18rem;
+}
+
+.h-80 {
+  height: 20rem;
+}
+
+.h-88 {
+  height: 22rem;
+}
+
+.h-96 {
+  height: 24rem;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;

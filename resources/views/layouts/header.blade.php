@@ -13,7 +13,9 @@
                 <li class="flex-1 hover:text-white transition duration-300 cursor-pointer">
                     <a href="{{ route('top.course') }}">コース</a>
                 </li>
-                <li class="flex-1 hover:text-white transition duration-300 cursor-pointer">ご挨拶</li>
+                <li class="flex-1 hover:text-white transition duration-300 cursor-pointer">
+                    <a href="{{ route('top.greetings') }}">ご挨拶</a>
+                </li>
                 <li class="flex-1 hover:text-white transition duration-300 cursor-pointer">入塾の流れ</li>
                 <li class="flex-1 hover:text-white transition duration-300 cursor-pointer">その他</li>
                 <li class="flex-1">

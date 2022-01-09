@@ -115,4 +115,15 @@ class TopController extends Controller
         //
         return view('top.curriculum');
     }
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function greetings()
+    {
+        //
+        return view('top.greetings');
+    }
 }
